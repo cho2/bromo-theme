@@ -1,36 +1,43 @@
 .manokwari-fullscreen-dialog {
-    background-color: rgba(10, 10, 10, 0.6);
-    color: white;
+	background-color: rgba(10, 10, 10, 0.6);
+    	color: white;
  }
 
 .manokwari-fullscreen-dialog button {
-    background-color: rgba(10, 10, 10, 0.6);
-    color: white;
-    border-color: rgba(10, 10, 10, 0.8);
-    border-style: solid;
-    border-width: 2px;
+    	background-color: rgba(10, 10, 10, 0.6);
+    	color: white;
+    	border-color: rgba(10, 10, 10, 0.8);
+    	border-style: solid;
+    	border-width: 2px;
  }
  
 .manokwari-fullscreen-dialog button:hover {
-    background-color: rgba(10, 10, 10, 1);
-    color: white;
-    border-color: rgba(10, 10, 10, 1);
-    border-style: solid;
-    border-width: 2px;
+    	background-color: rgba(10, 10, 10, 1);
+    	color: white;
+    	border-color: rgba(10, 10, 10, 1);
+    	border-style: solid;
+    	border-width: 2px;
  }
 
 .manokwari-panel {
 	background-color: #000;
-	color: #ededed;
+	color: #ddd;
+	text-shadow: 0 1px 1px #444;
+	-webkit-text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
 }
 
 .manokwari-panel-window-names {
 	background-color: #000;
 	color: #444;
-	/*text-shadow: -1px 1px 1px #000;*/
-	font-size: 8px;
+	font-size: 0.62em;
+	text-shadow: 0 1px 1px #111;
+	-webkit-text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
 }
 
 .manokwari-panel-window-names:hover {
-	color: #ededed;
+	color: #ddd;
+	text-shadow: 0 1px 1px #444;
+	-webkit-font-smoothing: antialiased !important;
 }
